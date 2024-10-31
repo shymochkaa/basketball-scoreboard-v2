@@ -1,0 +1,153 @@
+@font-face {
+    font-family: CursedTimer;
+    src: url(fonts/CursedTimerUlil-Aznm.ttf);
+}
+
+body {
+    margin: 0;
+    /* background-image: url(images/basketball-field.jpg);
+    background-size: cover;
+    background-position: 0px -1000px;  
+    */
+    text-align: center;
+}
+
+h2, h3{
+    margin: 5px 0;
+    color:#EEEEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+
+
+
+
+.container {
+    width: 575px;
+    height: 466px;
+    margin: 200px auto;
+    background-color: #12455A;
+}
+
+.new-game-btn {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #4caf4f38;
+    border-radius: 5px;
+    border: 2px solid #67AD5B;
+    color: #67AD5B;
+    padding: 10px 22px;
+    margin: 10px 0 0 0;
+    text-align: center;
+    
+}
+
+.second-row, .third-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.num {
+    font-family: CursedTimer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px; 
+}
+
+.score-num {
+    width: 150px;
+    height: 100px;
+    background-color: #080001;
+    color: #F94F6D;
+    font-size: 80px;
+      
+    
+
+}
+
+.score-home, .score-guest, .fouls, .period {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.add-points-btns {
+    width: 145px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.add-points-btns button {
+    font-size: 16px;
+    color:#9AABD8;
+    background-color: transparent;
+    border: 2px solid #9AABD8;
+    padding: 6px 6px;
+}
+
+.time {
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.time-num {
+    height: 65px;
+    background-color: #080001;
+    color: #FCEC60;
+    font-size: 40px;
+}
+
+.pause-btn {
+    width: 150px;
+    font-size: 18px;
+    color:#9AABD8;
+    background-color: transparent;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    padding: 6px 12px;
+    margin: 10px 0;
+}
+
+.third-row {
+    margin-top: 20px;
+}
+
+.fouls h3 {
+    font-size: 20px;
+}
+
+.fouls-num, .period-num {
+    width: 75px;
+    height: 55px;
+    background-color: #080001;
+    color: #67AD5B;
+    font-size: 40px;
+
+}
+
+
+.fouls-btn {
+    justify-content: center;
+}
+.fouls-btn button{
+    font-size: 10px;
+    margin: 0px 5px;
+}
+
+.period-num {
+    color: #FCEC60;
+}
+
+.period h2 {
+    font-size: 30px;
+}

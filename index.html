@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Basketball Scoreboard</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <button id="new-game-btn" class="new-game-btn" >NEW GAME</button>
+        </div>
+        <div class="second-row">
+            <div class="score-home">
+                <h2>HOME</h2>
+                <div id="home-score" class="score-num num">0</div>
+                <div class="add-points-btns">
+                    <button id="home-plus-one" class="num">+1</button>
+                    <button id="home-plus-two"class="num">+2</button>
+                    <button id="home-plus-three"class="num">+3</button>
+                </div>
+            </div>
+            <div class="time">
+                <h3>TIME</h3>
+                <div  id="timer" class="time-num num">48:00</div>
+                <button id="pause-timer" class="pause-btn">PAUSE</button>
+            </div>
+
+            <div class="score-guest">
+                <h2>GUEST</h2>
+                <div id="guest-score" class="score-num num">0</div>
+                <div class="add-points-btns">
+                    <button id="guest-plus-one" class="num">+1</button>
+                    <button id="guest-plus-two" class="num">+2</button>
+                    <button id="guest-plus-three" class="num">+3</button>
+                </div>
+            </div>
+        </div>
+        <div class="third-row">
+
+            <div class="fouls">
+                <h3>FOULS</h3>
+                <div id="home-fouls" class="fouls-num num">0</div>
+                <div class="add-points-btns fouls-btn">
+                    <button id="home-fouls-plus-one" class="num">+1</button>
+                    <button id="home-fouls-minus-one" class="num">-1</button>
+                </div>
+            </div>
+
+            <div class="period">
+                <h2>PERIOD</h2>
+                <div id="period" class="period-num num">1</div>
+                <div class="add-points-btns fouls-btn">
+                    <button id="period-plus-one" class="num">+1</button>
+                    <button id="period-minus-one" class="num">-1</button>
+                </div>
+            </div>
+
+            <div class="fouls">
+                <h3>FOULS</h3>
+                <div id="guest-fouls" class="fouls-num num">0</div>
+                <div class="add-points-btns fouls-btn">
+                    <button id="guest-fouls-plus-one" class="num">+1</button>
+                    <button id="guest-fouls-minus-one"class="num">-1</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
